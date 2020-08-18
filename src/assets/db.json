@@ -1,0 +1,104 @@
+{
+  "items2": [
+    {
+      "title": "Покупки",
+      "color": "#FFBBCC",
+      "iconX": true,
+      "complete": false,
+      "id": 1
+    },
+    {
+      "title": "Фронтенд",
+      "color": "#64C4ED",
+      "iconX": true,
+      "complete": false,
+      "id": 2
+    },
+    {
+      "title": "Фильмы и сериалы",
+      "color": "#FF6464",
+      "iconX": true,
+      "complete": false,
+      "id": 3
+    },
+    {
+      "title": "Книги",
+      "color": "#B6E6BD",
+      "iconX": true,
+      "complete": false,
+      "id": 4
+    }
+  ],
+  "colorIcon": [
+    {
+      "id": 1,
+      "color": "#C9D1D3"
+    },
+    {
+      "id": 2,
+      "color": "#42B883"
+    },
+    {
+      "id": 3,
+      "color": "#64C4ED"
+    },
+    {
+      "id": 4,
+      "color": "#FFBBCC"
+    },
+    {
+      "id": 5,
+      "color": "#B6E6BD"
+    },
+    {
+      "id": 6,
+      "color": "#C355F5"
+    },
+    {
+      "id": 7,
+      "color": "#09011A"
+    },
+    {
+      "id": 8,
+      "color": "#FF6464"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "items2Id": 2,
+      "title": "Изучить JavaScript",
+      "complete": true
+    },
+    {
+      "id": 2,
+      "items2Id": 2,
+      "title": "Изучить паттерны проектирования",
+      "complete": true
+    },
+    {
+      "id": 3,
+      "items2Id": 2,
+      "title": "ReactJS Hooks(useState, useEffect, useReducer и т.д.)",
+      "complete": false
+    },
+    {
+      "id": 4,
+      "items2Id": 2,
+      "title": "Redux (redux-observable, redux-saga)",
+      "complete": false
+    },
+    {
+      "items2Id": 1,
+      "title": "Salem",
+      "id": 5,
+      "complete": true
+    },
+    {
+      "items2Id": 4,
+      "title": "C++",
+      "complete": false,
+      "id": 6
+    }
+  ]
+}

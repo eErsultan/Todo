@@ -1,0 +1,140 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.todo {
+  width: 746px;
+  min-height: 529px;
+  box-shadow: 5px 6px 13px 1px #ccc;
+  display: flex;
+  margin: 40px auto;
+  font-weight: 500;
+}
+.todo__list {
+  min-width: 200px;
+  max-width: 200px;
+  background-color: #f4f6f8;
+  padding: 58px 20px 190px 20px;
+  border-right: 1px solid #f1f1f1;
+}
+.todo__items li {
+  position: relative;
+  padding: 10px 13px 11px 12px;
+  border-radius: 3px;
+  padding-left: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.todo__items li.active {
+  background: #fff;
+  box-shadow: 2px 2px 8px 0px #ccc;
+}
+.todo__items li.active:hover {
+  background: #fff;
+}
+.todo__items li:hover {
+  background-color: #fff;
+}
+.todo__list li span {
+  word-break: break-word;
+  flex: 1;
+}
+.todo__items li .icon,
+.todo__items li .circle {
+  margin-right: 10px;
+}
+.todo__items li .iconX {
+  background: #fff;
+  opacity: 0;
+}
+.todo__items:nth-child(2) li.active .iconX {
+  opacity: 1;
+}
+.todo__items li .iconX svg path {
+  fill: #ccc;
+}
+.todo__items:nth-child(2) li .iconX:hover svg path {
+  fill: #000;
+}
+.todo__items:nth-child(2) li:hover .iconX {
+  opacity: 1;
+}
+.todo__items li .icon {
+  position: relative;
+  top: 1px;
+}
+.todo__items li .circle {
+  min-width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-flex;
+}
+.todo__items:nth-child(2) {
+  padding-top: 30px;
+}
+.item-add .todo__items {
+  padding-top: 40px;
+}
+.item-add .todo__items li span {
+  color: #767676;
+}
+.item-add .todo__items li:hover span,
+.item-add .todo__items li:hover i svg path {
+  color: black;
+  stroke: black;
+}
+.popup-add-list {
+  background-color: #fff;
+  width: 235px;
+  height: 148px;
+  box-shadow: 2px 2px 8px 0px #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 30px;
+  position: absolute;
+  padding: 18px;
+}
+.popup-add-list .popup-exit {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  cursor: pointer;
+}
+.popup-add-list a,
+.color-icon a {
+  display: inline-flex;
+}
+.popup-add-list input {
+  padding: 8px 12px;
+  border: 1px solid #efefef;
+  width: 100%;
+  border-radius: 4px;
+}
+.popup-add-list input:focus {
+  border-color: #c4c4c4;
+}
+.color-icon {
+  margin: 13px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.color-icon i {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.color-icon i.active {
+  border: 2px solid #525252;
+}
+.popup-add-list button {
+  background-color: #4dd599;
+  width: 100%;
+  padding: 10px 0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
